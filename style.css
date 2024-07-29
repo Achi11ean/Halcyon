@@ -1,0 +1,128 @@
+body {
+    background: rgb(155, 153, 153);
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+h2 {
+    color: black;
+    font-family: "light helvetica";
+    font: lighter;
+    font-size: 60px;
+    text-align:center;
+    text-decoration: underline;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom:20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 16px;
+    border: 2px solid pink;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: red;
+    text-decoration: underline black;
+    border: 2px solid black
+}
+
+#aboutme {
+    text-align: center;
+    position:relative;
+    font-family: courier;
+}
+img {
+    height: 450px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 10px solid white
+}
+p {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    font-size: large;
+}
+
+#intro {
+    color: rgb(162, 5, 5);
+}
+
+#education {
+    color: orange;
+}
+
+#passion {
+    color: yellow;
+}
+
+#why {
+    color: green;
+}
+
+#Pursuits { 
+color: blue;
+}
+
+#journey {
+    color: rgb(166, 31, 184);
+}
+
+h3 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    font-size: xx-large;
+}
+h6 {
+    font-size: 40px;
+    color: white;
+    font-family: "segoe UI";
+    text-align: center;
+    border: 10px solid white;
+}
+#connect {
+    width: 400px;
+    text-align: center;   
+    font-size: xx-large;
+    color: pink;
+    text-decoration: underline;
+}
+#thanks {
+    font-size: larger;
+    padding-bottom: 25px;
+    color:white;
+}
+h4 {
+    color: white;
+    border: 2px dotted pink;
+}
+h3 {
+    color: white;
+    border: 2px dotted pink;
+    font-family: courier;
+}
