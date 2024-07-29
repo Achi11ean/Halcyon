@@ -87,8 +87,10 @@ p {
 color: blue;
 }
 
-#journey {
+#path {
     color: rgb(166, 31, 184);
+    font-size: larger;
+    font-style: courier;
 }
 
 h3 {
