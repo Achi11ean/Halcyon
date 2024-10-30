@@ -197,7 +197,6 @@ h6 {
     font-size: xx-large;
     color: pink;
     text-decoration: underline;
-    background-color: rgba(0, 0, 0, 0.598);
     margin-bottom: 6px;
 
 }
@@ -206,7 +205,6 @@ h6 {
     padding-bottom: 25px;
     color:white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgba(0, 0, 0, 0.598);
 
 
 }
@@ -233,3 +231,60 @@ a {
     color:rgb(0, 191, 255);
 }
 
+@media (max-width: 450px) {
+    body {
+        background-size: contain;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        padding: 0.5em;
+        margin-left: 100; /* Reset the left margin */
+
+    }
+
+    h2 {
+        font-size: 32px;
+        padding: 5px 0;
+        margin-left: 0; /* Reset the left margin */
+
+    }
+
+    nav ul li a {
+        font-size: 24px;
+        padding: 8px 10px;
+        margin-left: 40px; /* Reset the left margin */
+
+    }
+
+    #aboutme {
+        width: 100%;
+        padding: 10px;
+        margin-left: 0; /* Reset the left margin */
+
+
+    }
+
+    img {
+        height: auto;
+        width: 100%;
+        padding: 0;
+        border: 5px solid white;
+    }
+
+    p {
+        width: auto;
+        font-size: 1.2rem;
+        margin-left: 0; /* Reset the left margin */
+
+    }
+
+    #connect {
+        width: 100%;
+        font-size: large;
+        padding: 10px;
+        margin-left: 0; /* Reset the left margin */
+
+    }
+}
