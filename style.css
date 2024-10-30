@@ -57,6 +57,7 @@ h2 {
     -webkit-text-fill-color: transparent; */
     border-radius: 42px;
     width:100%;
+    
 
     /* Soft shadow for depth */
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
@@ -75,6 +76,7 @@ nav ul {
     padding: 0;
     text-align: center;
     padding-bottom:20px;
+    border-radius: 15px;
     
 }
 
@@ -91,6 +93,8 @@ nav ul li a {
     font-size: 50px;
     text-decoration: none;
     background-color: pink;
+    border-radius: 15px;
+
 }
 
 nav ul li a:hover {
@@ -106,7 +110,7 @@ nav ul li a:hover {
     font-family: courier;
     background-color: rgba(0, 0, 0, 0.598);
     border-radius: 45px;
-    width:65rem;
+    width:68rem;
     margin-left: 20rem;
 
 }
@@ -225,3 +229,7 @@ h3 {
 
 
 }
+a {
+    color:rgb(0, 191, 255);
+}
+
